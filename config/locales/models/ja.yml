@@ -1,0 +1,31 @@
+ja:
+  activerecord:
+    models:
+      post: 投稿
+      user: ユーザー
+    attributes:
+      post:
+        content: 投稿内容
+      user:
+        name: 名前
+        email: メールアドレス
+        picture: ユーザー画像
+        password: パスワード
+  
+# 5. 5. 1　エラーメッセージを日本語化しよう
+# ↓が元々のja.ymlファイルの指定された中身（postカラムが日本語化されない。↑は少し編集してみたら両方のカラム名が日本語化された）
+# ja:
+#   activerecord:
+#     models:
+#       post: 投稿
+#     attributes:
+#       post:
+#         content: 投稿内容
+#     models:
+#       user: ユーザー
+#     attributes:
+#       user:
+#         name: 名前
+#         email: メールアドレス
+#         picture: ユーザー画像
+#         password: パスワード
